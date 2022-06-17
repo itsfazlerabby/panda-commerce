@@ -1,0 +1,148 @@
+.carousel{
+    background-color: #fceef0;
+    margin-top: 80px;
+}
+.common-color{
+    color: #ff136f;
+}
+.btn-color{
+    background-color: #ff136f;
+    color: white;
+}
+
+
+.categories{
+    margin-top: 100px;
+}
+.categories{
+    color: white;
+}
+.categories img{
+    width: 100px;
+    margin: 0 auto;
+}
+.c-watch, .c-bag, .c-shoes{
+    border-radius: 5px;
+}
+.c-watch{
+    background-color: #d8d83d;
+    margin-right: 20px;
+}
+.c-bag{
+    background-color: #ff136f;
+    margin: 0 10px;
+}
+.c-shoes{
+    background-color: #2f2ff5;
+    margin-left: 10px;
+}
+
+
+
+
+.card{
+    margin: 100px 0;
+    border: 0px;
+}
+.card img{
+    width: 100%;
+}
+.card1, .card2, .card3{
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px gray;
+    padding: 10px;
+}
+.card1{
+    margin-right: 30px;
+}
+.card2{
+    margin: 0 15px;
+}
+.card3{
+    margin-left: 30px;
+}
+
+
+.cart{
+    margin: 100px 0;
+}
+.cart img{
+    width: 100%;
+}
+.cart1, .cart2, .cart3{
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px gray;
+    padding: 0;
+}
+.cart1{
+    margin-right: 30px;
+}
+.cart2{
+    margin: 0 15px;
+}
+.cart3{
+    margin-left: 30px;
+}
+
+
+
+.subscribe-container{    
+    background-color: #fceef0;
+    padding: 50px 0;
+    border-radius: 5px;
+}
+.subscribe{
+    width: 400px;
+}
+.subscribe .email input{
+    width: 400px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+
+.footer{
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+    .card1, .card2, .card3{
+        margin: 10px 0;
+        box-shadow: none;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .cart1, .cart2, .cart3{        
+        margin: 10px 0;
+        box-shadow: none;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+  }
+@media only screen and (max-width: 470px) {
+    .c-watch, .c-bag, .c-shoes{
+        margin: 10px;
+    }
+    .subscribe{
+        width: 70%;
+    }
+    .subscribe .email input{
+        width: 60%;
+    }
+  }
